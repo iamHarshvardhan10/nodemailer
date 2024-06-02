@@ -1,0 +1,18 @@
+{
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node SendingMail.js",
+    "dev":"nodemon SendingMail.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.2"
+  }
+}
